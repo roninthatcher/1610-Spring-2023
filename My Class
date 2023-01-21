@@ -1,0 +1,28 @@
+using System;
+					
+public class Dummy
+{
+	public Dummy Idiot;
+	public Dummy Meathead;
+	
+	public int intellegence;
+	public int wisdom;
+	public int strength;
+	public int patience;
+	
+	public void Main()
+	{
+		Idiot = new Dummy();
+		Meathead = new Dummy();
+		
+		Idiot.intellegence = -4;
+		Idiot.wisdom = -60;
+		Idiot.strength = 1000045;
+		Idiot.patience = -200;
+		
+		Meathead.intellegence = -20;
+		Meathead.wisdom = -30;
+		Meathead.strength = 999932;
+		Meathead.patience = -150;
+	}
+}
