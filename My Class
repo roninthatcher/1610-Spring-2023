@@ -24,5 +24,15 @@ public class Dummy
 		Meathead.wisdom = -30;
 		Meathead.strength = 999932;
 		Meathead.patience = -150;
+
+		Console.WriteLine(Idiot.intellegence);
+		Console.WriteLine(Idiot.wisdom);
+		Console.WriteLine(Idiot.strength);
+		Console.WriteLine(Idiot.patience);
+
+		Console.WriteLine(Meathead.intellegence);
+		Console.WriteLine(Meathead.wisdom);
+		Console.WriteLine(Meathead.strength);
+		Console.WriteLine(Meathead.patience);
 	}
 }
