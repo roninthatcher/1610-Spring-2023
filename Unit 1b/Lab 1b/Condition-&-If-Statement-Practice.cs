@@ -16,6 +16,7 @@ namespace MyApplication
       if (z == y) 
       {
         Console.WriteLine("Correct, they are equal");
+      }
       
       int Health = 15;
       if (Health < 10) 
@@ -30,7 +31,7 @@ namespace MyApplication
       {
         Console.WriteLine("Green");
         
-      int time = 5;
+      int time = 18;
       if (time == 18) 
       {
         Console.WriteLine("Correct");
@@ -47,11 +48,12 @@ namespace MyApplication
       else 
       {
         Console.WriteLine("Incorrect");
+      }
         
       int target = 18;
       string result = (target == 18) ? "Got it!" : "You Missed";
       Console.WriteLine(result);
-      }
+     }
     }
   }
- }}}
+ }
